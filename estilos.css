@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Krona+One|Odibee+Sans|Trade+Winds|Yeon+Sung&display=swap');
+
+.encabezado {
+    outline: 10px dotted rgba(105, 100, 170, 0.74);
+    box-shadow: 0 0 0 6px rgb(96, 52, 116);
+    animation: .9s bordeAnimado1 infinite;
+    background-image: url(https://es.calcuworld.com/wp-content/uploads/sites/2/2018/04/cuanto-mide-el-universo-entero.jpg);
+    font-size: 50px;
+    padding-top: -2px;
+    padding-bottom: -5px;
+    color: transparent;
+    letter-spacing: 35px;
+    outline-width: 10px;
+    font-family: "Odibee Sans";
+    margin: -56px 8px ; 
+}
+
+.encabezado :hover {
+    color: black;
+    transition: 5s;
+}
+
+@keyframes bordeAnimado1 {
+    to{
+        outline-color: rgb(96, 52, 116);
+        box-shadow: 0 0 0 10px rgba(105, 100, 170, 0.74);       
+    }
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.212);
+    background-image: url(https://www.xtrafondos.com/wallpapers/espacio-estrellas-universo-nebulosa-3337.jpg);
+}
+
+.encabezado2 {
+    font-size: 69px;
+    font-family:"Yeon sung";
+    color:transparent;
+    margin: 200px;
+    letter-spacing: 5px;
+    padding: 9px ;
+    background-color: rgba(0, 0, 0, 0.308);
+    border-radius: 160px;
+}
+
+.encabezado2 :hover {
+    color: rgb(6, 6, 71);
+    transition: 2s;
+}
+
+.link {
+    text-decoration: none;
+    color: transparent;
+    font-size: 55px;
+}
+
+.encabezado3 {
+    font-size: 66px;
+    font-family: "Odibee Sans";
+    color: rgba(0, 0, 0, 0.644);
+    margin: 180px;
+}
+
+.calculadora {
+    position:absolute;
+    background-color: rgba(32, 25, 25, 0.589);
+    top: -280;
+    right: 520px;
+    margin: -155px;
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border-radius: 45px;
+    padding-right: 0px;
+    border-style: dashed;
+    box-shadow: 0 0 0 2px rebeccapurple;
+}
+
+button {
+    position: relative;
+    margin: 18px;
+    padding: 15px;
+    background-color: rgb(43, 39, 39);
+    text-decoration: none;
+    color: whitesmoke;
+    outline: none;
+    font-size: 25px;
+    top: 20px;
+    right: 120px;
+}
+
+.ops {
+    position: relative;
+}
+
+.punto {
+    top: -78px;
+    right: -10px;
+    padding-left: 20px;
+}
+
+.igu {
+    top: -78px;
+    right: -99px;
+}
+
+.sum {
+    top: -79px;
+    right: -99px;
+}
+
+.res {
+    top: -178px;
+    right: -10px;
+    padding: 15px;
+    padding-left: 20px;
+}
+
+.mul {
+    top: -277px;
+    right: 78px;
+    padding-left: 20px;
+}
+
+.div {
+    top: -376px;
+    right: 166px;
+}
+
+.pantalla {
+    border-radius: 40px;
+    background-color: black;
+    width: 390px;
+    height: 60px;
+    position: relative;
+    right: -60px;
+    border-style: dotted;
+    border-color: chocolate;
+    box-shadow: 0 0 0 1px rgba(165, 42, 42, 0.315);
+}
+
+#resultado {
+    color: aliceblue;
+    font-size: 33px;
+    padding: 1px;
+    background-color: transparent;
+    word-break: break-all;
+    position: relative;
+    top: -22px;
+}
+
